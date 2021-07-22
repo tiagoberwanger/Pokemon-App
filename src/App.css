@@ -1,0 +1,70 @@
+body {
+  background-color: #e1e5eb;
+}
+body {
+  padding: 0;
+  margin: 0;  
+}
+
+/* display a div with the image inside in the center of the screen with max of 800 pixels */
+.image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 30px auto;
+}
+
+/* display the image inside the .image-container */
+.image-container img {
+  width: 100%;
+  max-width: 1000px;
+  max-height: 700px;
+  border-radius: 5%;
+}
+
+/* display a button under the image-container in the center of screen */
+ .button-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.timer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0;
+}
+
+/* style the button to be big with a green background and a raibow border */
+.button {
+  background-color: #2FC18C;
+  border: 1px solid #2FC18C;
+  border-radius: 5px;
+  padding: 10px;
+  height: 100%;
+  color: #FFFFFF;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s;
+  margin-top: 10px;
+}
+
+/* send image trybe.png to the top right corner with max of 200px */
+.logo-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 200px;
+}
